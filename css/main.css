@@ -1,0 +1,44 @@
+body {
+    background: #7f7fd5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.card {
+    width: 22%;
+    height: 100px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a8ff78;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+.card a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 12px;
+    background: #c94b4b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
